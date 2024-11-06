@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang = "en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name = "viewpoint" content="width=device-width", initial-scale="1.0">
+        <title>Kennah CEO</title>
+
+        <!--font awesome cdn link-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+        <!--Custom css file link-->
+        <link rel="stylesheet" href="style.css"> 
+    </head>
+
+
+
+    <body>
+
+        <!--header section starts--> 
+        <header>
+            <div class="user">
+                <img src="ken.jpg" alt="img">
+                <h3 class="name">KENNAH CEO</h3>
+                <p class="post">Computer Science <br> Undergraduate</p>
+            </div>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#education">Experiences</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--header section ends-->
+
+
+        <div id="menu" class="fas fa-bars"></div>
+
+
+        <!-- home section starts -->
+        <section class="home" id="home">     
+            <h3>HI THERE!<span class="wave">👋</span></h3> 
+            <h1>I'm <span>Kennah CEO</span></h1>
+            <p> I'm an enthusiastic and driven Computer Science undergraduate with a thirst for 
+                knowledge and a love for problem-solving. Currently pursuing my degree at Faculty of
+                Computing and Informatics in MMUST. I am passionate about exploring the world of technology 
+                and its endless possibilities.
+                I'm a young learner who is exploring new technologies and 
+                is committed to collaborating with teams that prioritize both technical and soft skills.</p>
+
+            <a href="#contact"><button class="btn"> Contact Me <i class="fas fa-user"></i></button></a>
+
+        </section>
+        <!-- home section ends -->
+
+
+        <!-- about section starts -->
+        <section class="about" id="about">
+            <h1 class="heading"><span>About Me <i class="fa-solid fa-pen-clip"></i> ... </span>  </h1>
+            <div class="row">
+                <div class="info">
+                    <h3><span>Name : </span> <b>KENNEDY ONYANGO MIYAWA</b></h3>
+                    <h3><span>Birthdate : </span> <b>23/11/2004</b></h3>
+                    <h3><span>Post : </span><b>Undergraduate at Masinde Muliro University Of Science And Technology</b> </h3>
+                    <h3><span>Languages : </span><b>Kiswahili, English </b> </h3>
+                    <p>Throughout my academic journey, I have delved into various programming languages, 
+                        algorithms, and software development methodologies. I find great joy in turning 
+                        complex challenges into beautiful and efficient solutions through coding projects, 
+                        coursework, or hackathons.</p>
+                    <p><a href="https://drive.google.com/file/d/1tK8V0n_hw_KdL_CrGui76hvvBgXozrKD/view" 
+                         class="btn">Download CV <i class="fa fa-download" aria-hidden="true"></i></a></p> 
+                </div>
+
+                <div class="counter">
+
+                    <div class="box">
+                        <a href="https://github.com/KENNAH-CEO" target="_blank" class="media-button">
+                            <i class="fa-brands fa-github"></i> <br>GitHub 
+                      </a>
+                    </div>
+
+                    <div class="box">
+                        <a href="https://www.linkedin.com/in/kennah-ceo" target="_blank" class="media-button">
+                            <i class="fa-brands fa-linkedin-in"></i> <br>LinkedIn 
+                      </a>
+                    </div>
+
+                    <div class="box">
+                        <a href="https://x.com/kennah_onyi" target="_blank" class="media-button">
+                            <i class="fab fa-x"></i>  <br>Twitter 
+                      </a>
+                    </div>
+
+                    
+                </div>
+
+                
+
+            </div>
+        </section>
+        <!-- about section ends -->
+
+
+        <!--achievements section starts-->
+        <section class="education" id="education">
+            <h1 class="heading"><span>Experiences </span><i class="fa-solid fa-medal"></i> ... </h1>
+            <div class="row">
+
+                <div id="achievements" class="achievement-section"></div>
+                    <div class="achievement-box">
+                        <button onclick="toggleContent('academic')" class="btn" >Academic Achievements <i class="fas fa-graduation-cap"></i></button>
+                        <div id="academic" class="achievement-content">
+                            <ul>
+                                <li>B.Sc.(Hons) in Computer Science <br><p>Masinde Muliro University of Science and Technology<br>Aug 2022 - Present<br> GPA - 3.68 (current)</p><br></li>
+                                <li>KCSE<br> <p>MENARA BOYZ, KERICHO<br> 64-B(PLAIN) <br> Apr 2022 </p><br></li>
+                                <li>Certificate Courses<br><p>
+                                    Cisco - Introduction to Cyber Security<br>Alison Courses<br>Coursera Courses<br>DevTown Courses<br>
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="achievement-box" id="ac1">
+                    <button onclick="toggleContent('curriculum')" class="btn">Curriculum Activities <i class="fa-solid fa-award"></i></button>
+                        <div id="curriculum" class="achievement-content">
+                            <ul>
+                                <li>Organizing Secretary<br> <p>Kisumu MMUST Students' Association,<br>Masinde Muliro University of Science and Technology<br>Aug 2023 - Present</p><br></li>
+                                <li>Student Leader<br><p>Computer Science class 2022<br> Masinde Muliro University of Science and Technology<br>Aug 2022 - Present</p><br></li> 
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="achievement-box" id="ac2">
+                        <button onclick="toggleContent('skills')" class="btn">Technical Skills & Soft Skills <i class="fa-solid fa-laptop-code"></i></button>
+                            <div id="skills" class="achievement-content" >
+                                <ul>
+                                    <li>Technical Skills<br> <p> 
+                                        ▪ Java (OOP) <br>
+                                        ▪ HTML / CSS / JS <br>
+                                        ▪ PYTHON <br>
+                                        ▪ MySQL <br>
+                                        ▪ DATABASE (Beginer) <br>
+                                        ▪ VCS (Git)</p><br></li>
+                                    <li>Soft Skills <br><p>
+                                        ▪ Hardworking and Dedication <br>
+                                        ▪ Designing <br>
+                                        ▪ Creativity <br>
+                                        ▪ Positive Thinking <br>
+                                        ▪ Adaptability <br>
+                                        ▪ Time Management <br>
+                                        ▪ Team Player <br>
+                                        ▪ Decision Making <br>
+                                    </p></li> 
+                                </ul>
+                            </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--achievements section ends-->
+        
+
+
+        <!--contact section starts-->
+        <div class="section contact" id="contact">
+            <h1 class="heading"><span>Contact</span> Me <i class="fa fa-address-book" aria-hidden="true"></i> ... </h1>
+            <div class="row">
+                <div class="content">
+                    <div class="info">
+                        <h3><i class="fas fa-envelope"></i>
+                            <a href="mailto:kennahceo@gmail.com" class="link">kennahceo@gmail.com</a></h3>
+                        <h3><i class="fas fa-phone"></i>0741369249</h3>
+                        <h3><i class="fas fa-map-marker-alt"></i>Oginga Odinga Road, Kisumu</h3>
+                </div>
+            </div>
+                
+        </div>
+        <!--contact section ends-->
+
+
+        <!-- Footer section starts -->
+        <footer>
+            <p>&copy; 2024 Created With <i class="fas fa-heart"></i> By Kennah_CEO</p>
+          </footer>
+        <!--Footer section ends-->
+          
+
+
+
+        <!-- jquery cdn link -->
+        <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script> 
+
+        <!--Custom js file link-->
+        <script src = "script.js"></script>
+
+    </body>
+</html>
